@@ -1,0 +1,21 @@
+Nama : Reido Vidaya Mahardika
+Batch : RMT 40
+
+CREATE TABLE table_m3 (
+	"Car_id" VARCHAR(20) PRIMARY KEY,
+	"Date" VARCHAR(20),
+	"Customer Name" VARCHAR(20),
+	"Gender" VARCHAR(20),
+	"Annual Income" INT,
+	"Dealer_Name" VARCHAR(50),
+	"Company" VARCHAR(20),
+	"Model" VARCHAR(20),
+	"Engine" VARCHAR(50),
+	"Transmission" VARCHAR(20),
+	"Color" VARCHAR(20),
+	"Price ($)" INT,
+	"Dealer_No" VARCHAR(20),
+	"Body Style" VARCHAR(20),
+	"Phone" INT,
+	"Dealer_Region" VARCHAR(30)
+);

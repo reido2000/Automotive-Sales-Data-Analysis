@@ -1,0 +1,27 @@
+Nama : Reido Vidaya Mahardika
+Batch : RMT 40
+
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+    NoSQL adalah database yang tidak menggunakan skema tabel yang berarti tidak harus memiliki baris dan kolom.
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+    - Saat jumlah data besar(Big Data)
+    - Saat struktur data fleksibel/sering berubah
+    - Saat membutuhkan performa yang cepat
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+    - MongoDB memiliki keunggulan Schemaless, indeks yang fleksibel, integrasi yang mudah.
+    - Apache memiliki keunggulan untuk menangani Big data dan memiliki write perfomance yang tinggi
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+    Airflow merupakan management system yang bisa digunakan untuk mengatur, menjadwalkan, membuat alur secara otomatis.
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+    Great Expectations merupakan alay untuk membantu memeriksa data kita apakah sesuai dengan harapan yang kita inginkan.
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll)
+    Batch Processing merupakan cara memproses data dalam jumlah besar dalam satu waktu dan bisa dijadwalkan.
+    Misalnya Gaji pegawai dibayarkan setiap tanggal 25 maka airflow akan mulai dengan mengumpulkan data untuk perhitungan gaji(gaji pokok, tunjangan, potongan).
+    Dilanjutkan dengan menjalankan task perhitungannya dan disimpan di database. Setelahnya airflow diintegrasikan dengan sistem pembayarannya untuk verifikasi.
+    Setelah verifikasi selesai dilanjutkan dengan melakukan transfer.
+
